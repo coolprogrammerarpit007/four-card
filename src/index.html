@@ -22,15 +22,17 @@
 
   <!-- Cards -->
 
-  <div class="card-container grid grid-cols-4 gap-[1rem]">
+  <div class="card-container grid grid-cols-3 gap-[1rem]">
+    <div class="row-start-1 row-end-3 flex justify-center items-center">
     <!-- Supervisor Card -->
-     <div class="card w-[28rem] h-[25rem] bg-white p-10 flex flex-col gap-[1.5rem] relative shadow-lg rounded-lg border-top-cyan">
-      <h2 class="text-[2rem] text-[hsl(234,12%,34%)]">Supervisor</h2>
-      <p class="text-[1rem] text-gray-400">Monitors activity to identify project roadblocks</p>
-      <div class="absolute bottom-0 right-[2rem]">
-        <img src="./images/icon-supervisor.svg" alt="Supervisor">
+      <div class="card w-[28rem] h-[25rem] bg-white p-10 flex flex-col gap-[1.5rem] shadow-lg rounded-lg border-top-cyan row-start-1 relative">
+        <h2 class="text-[2rem] text-[hsl(234,12%,34%)]">Supervisor</h2>
+        <p class="text-[1rem] text-gray-400">Monitors activity to identify project roadblocks</p>
+        <div class="absolute bottom-0 right-[2rem]">
+          <img src="./images/icon-supervisor.svg" alt="Supervisor">
+        </div>
       </div>
-     </div>
+    </div>
 
      <!-- Team Builder -->
      <div class="card w-[28rem] h-[25rem] bg-white p-10 flex flex-col gap-[1.5rem] relative shadow-lg rounded-lg border-top-red">
@@ -41,17 +43,19 @@
       </div>
      </div>
 
-     <!-- Calculator -->
-     <div class="card w-[28rem] h-[25rem] bg-white p-10 flex flex-col gap-[1.5rem] relative shadow-lg rounded-lg border-top-blue">
-      <h2 class="text-[2rem] text-[hsl(234,12%,34%)]">Calculator</h2>
-      <p class="text-[1rem] text-gray-400">Uses data from past projects to provide better delivery estimates</p>
-      <div class="absolute bottom-0 right-[2rem]">
-        <img src="./images/icon-calculator.svg" alt="Supervisor">
+     <div class="row-span-2 flex justify-center items-center">
+      <!-- Calculator -->
+      <div class="card w-[28rem] h-[25rem] bg-white p-10 flex flex-col gap-[1.5rem] relative shadow-lg rounded-lg border-top-blue">
+        <h2 class="text-[2rem] text-[hsl(234,12%,34%)]">Calculator</h2>
+        <p class="text-[1rem] text-gray-400">Uses data from past projects to provide better delivery estimates</p>
+        <div class="absolute bottom-0 right-[2rem]">
+          <img src="./images/icon-calculator.svg" alt="Supervisor">
+        </div>
       </div>
-     </div>
+    </div>
 
      <!-- Karma -->
-     <div class="card w-[28rem] h-[25rem] bg-white p-10 flex flex-col gap-[1.5rem] relative shadow-lg rounded-lg border-top-orange">
+     <div class="card w-[28rem] h-[25rem] bg-white p-10 flex flex-col gap-[1.5rem] relative shadow-lg rounded-lg border-top-orange col-start-2 col-end-3">
       <h2 class="text-[2rem] text-[hsl(234,12%,34%)]">Karma</h2>
       <p class="text-[1rem] text-gray-400">Regularly evaluates our talent to ensure quality</p>
       <div class="absolute bottom-0 right-[2rem]">
