@@ -22,10 +22,10 @@
 
   <!-- Cards -->
 
-  <div class="card-container grid grid-cols-3 gap-[1rem]">
-    <div class="row-start-1 row-end-3 flex justify-center items-center">
+  <div class="card-container grid grid-cols-1 sm:grid-cols-3 gap-[1rem] ">
+    <div class="sm:row-start-1 sm:row-end-3 sm:flex sm:justify-center sm:items-center col-span-2 sm:col-span-1">
     <!-- Supervisor Card -->
-      <div class="card w-[28rem] h-[25rem] bg-white p-10 flex flex-col gap-[1.5rem] shadow-lg rounded-lg border-top-cyan row-start-1 relative">
+      <div class="card sm:w-[28rem] h-[25rem] bg-white p-10 flex flex-col gap-[1.5rem] shadow-lg rounded-lg border-top-cyan sm:row-start-1  relative">
         <h2 class="text-[2rem] text-[hsl(234,12%,34%)]">Supervisor</h2>
         <p class="text-[1rem] text-gray-400">Monitors activity to identify project roadblocks</p>
         <div class="absolute bottom-0 right-[2rem]">
@@ -35,17 +35,19 @@
     </div>
 
      <!-- Team Builder -->
-     <div class="card w-[28rem] h-[25rem] bg-white p-10 flex flex-col gap-[1.5rem] relative shadow-lg rounded-lg border-top-red">
-      <h2 class="text-[2rem] text-[hsl(234,12%,34%)]">Team Builder</h2>
-      <p class="text-[1rem] text-gray-400">Scans our talent network to create the optimal team for your project</p>
-      <div class="absolute bottom-0 right-[2rem]">
-        <img src="./images/icon-team-builder.svg" alt="Supervisor">
-      </div>
-     </div>
+      <div class="col-span-3 sm:col-span-1">
+        <div class="card sm:w-[28rem] h-[25rem] bg-white p-10 flex flex-col gap-[1.5rem] relative shadow-lg rounded-lg border-top-red w-[100%]">
+          <h2 class="text-[2rem] text-[hsl(234,12%,34%)]">Team Builder</h2>
+          <p class="text-[1rem] text-gray-400">Scans our talent network to create the optimal team for your project</p>
+          <div class="absolute bottom-0 right-[2rem]">
+            <img src="./images/icon-team-builder.svg" alt="Supervisor">
+          </div>
+        </div>
+    </div>
 
-     <div class="row-span-2 flex justify-center items-center">
+     <div class="sm:row-span-2 sm:flex sm:justify-center sm:items-center col-span-2 sm:col-span-1">
       <!-- Calculator -->
-      <div class="card w-[28rem] h-[25rem] bg-white p-10 flex flex-col gap-[1.5rem] relative shadow-lg rounded-lg border-top-blue">
+      <div class="card sm:w-[28rem] h-[25rem] bg-white p-10 flex flex-col gap-[1.5rem] relative shadow-lg rounded-lg border-top-blue w-[100%]">
         <h2 class="text-[2rem] text-[hsl(234,12%,34%)]">Calculator</h2>
         <p class="text-[1rem] text-gray-400">Uses data from past projects to provide better delivery estimates</p>
         <div class="absolute bottom-0 right-[2rem]">
@@ -55,13 +57,15 @@
     </div>
 
      <!-- Karma -->
-     <div class="card w-[28rem] h-[25rem] bg-white p-10 flex flex-col gap-[1.5rem] relative shadow-lg rounded-lg border-top-orange col-start-2 col-end-3">
-      <h2 class="text-[2rem] text-[hsl(234,12%,34%)]">Karma</h2>
-      <p class="text-[1rem] text-gray-400">Regularly evaluates our talent to ensure quality</p>
-      <div class="absolute bottom-0 right-[2rem]">
-        <img src="./images/icon-karma.svg" alt="karma">
-      </div>
-     </div>
+      <div class="col-span-3 sm:col-span-1">
+        <div class="card sm:w-[28rem] h-[25rem] bg-white p-10 flex flex-col gap-[1.5rem] relative shadow-lg rounded-lg border-top-orange col-start-2 col-end-3 w-[100%]">
+          <h2 class="text-[2rem] text-[hsl(234,12%,34%)]">Karma</h2>
+          <p class="text-[1rem] text-gray-400">Regularly evaluates our talent to ensure quality</p>
+          <div class="absolute bottom-0 right-[2rem]">
+            <img src="./images/icon-karma.svg" alt="karma">
+          </div>
+        </div>
+    </div>
 
      
   </div>
