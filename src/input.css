@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+
+    .poppins{
+        font-family: "Poppins", sans-serif;
+    }
+
+    .antique{
+        background-color: antiquewhite;
+    }
+
+    .border-top-cyan{
+        border-top: 0.4rem solid hsl(180, 62%, 55%);
+    }
+    .border-top-red{
+        border-top: 0.4rem solid hsl(0, 78%, 62%);
+    }
+    .border-top-blue{
+        border-top: 0.4rem solid hsl(212, 86%, 64%);
+    }
+    .border-top-orange{
+        border-top: 0.4rem solid hsl(34, 97%, 64%);
+    }
+}
