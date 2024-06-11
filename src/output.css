@@ -792,6 +792,10 @@ video {
     width: 28rem;
   }
 
+  .sm\:w-\[50\%\] {
+    width: 50%;
+  }
+
   .sm\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -802,5 +806,13 @@ video {
 
   .sm\:justify-center {
     justify-content: center;
+  }
+
+  .sm\:text-\[2rem\] {
+    font-size: 2rem;
+  }
+
+  .sm\:text-\[3rem\] {
+    font-size: 3rem;
   }
 }
